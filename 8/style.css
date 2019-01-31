@@ -5,7 +5,7 @@ body {
 	font-family: "Roboto Mono", monospace;
 	font-weight: normal;
 	text-align: left;
-	font-size: 100%;
+	font-size: 1em;
 }
 
 .titulo {
@@ -22,7 +22,6 @@ body {
 }
 
 .sub {
-	font-size: 1em;
 	font-weight: normal;
 	text-align: center;
 	font-style: italic;
