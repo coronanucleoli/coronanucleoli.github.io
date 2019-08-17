@@ -8,7 +8,7 @@ body {
 
 @font-face {
 	font-family: "Helvetica Neue";
-	src: url("files/helvetica/HelveticaNeue-Medium.ttf");
+	src: url("../files/helvetica/HelveticaNeue-Medium.ttf");
 }
 
 .all {
