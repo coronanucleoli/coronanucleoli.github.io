@@ -1,105 +1,105 @@
 body {
-	font-family: "Crimson Text", serif;
-	font-size: 1.25em;
-	background-color: pink;
-	background-image: url("../files/images/background.jpg");
+	--pink: #DB97A6;
+	font-family: "Inconsolata", serif;
+	font-size: 1em;
+	background-color: var(--pink);
+	background-image: url("files/images/background.jpg");
 	background-attachment: fixed;
-}
-
-@font-face {
-	font-family: "Helvetica Neue";
-	src: url("../files/helvetica/HelveticaNeue-Roman.ttf");
+	background-position: center;
 }
 
 .all {
 	margin: 2em;
-	background-color: white;
+}
+
+.div {
 	padding: 2em;
+	margin-bottom: 2em;
+	background-color: white;
 }
 
 .header {
-	font-family: "Helvetica Neue", "Arial", sans-serif;
+	font-weight: bold;
 	font-size: 4em;
 }
 
 .subheader {
-	font-family: "Helvetica Neue", "Arial", sans-serif;
+	font-weight: bold;
 	font-size: 1.5em;
-	color: pink;
+	color: var(--pink);
 }
 
 hr {
-	border: 1px solid pink;
+	border: 1px solid var(--pink);
 }
 
 .topbar {
-	font-family: "Helvetica Neue", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
 }
 
 a {
+	font-size: 1em;
 	color: black;
-	text-decoration: none;
+	text-decoration: underline var(--pink);
+}
+
+.topbar a {
+	line-height: 2em;
 }
 
 .link {
-	color: pink;
+	color: var(--pink);
 }
 
 .link:hover {
-	text-decoration: underline pink;
+	text-decoration: underline var(--pink);
 }
 
 .title {
-	color: pink;
+	color: var(--pink);
 	font-size: 1.5em;
-	font-family: "Helvetica Neue", "Arial", sans-serif;
+	font-weight: bold;
 }
 
 p {
-	margin-top: 0;
+	margin-top: 1em;
 	padding-bottom: 0.5em;
-	border-bottom: 2px solid pink;
-}
-
-.timestamp {
-	text-align: right;
+	border-bottom: 2px solid var(--pink);
 }
 
 .footer {
 	text-align: right;
-	margin-top: 4em;
 	padding-bottom: 0.5em;
-	border-bottom: 2px solid pink;
+	border-bottom: 2px solid var(--pink);
 }
 
 b {
-	color: pink;
-	font-weight: normal;
+	color: var(--pink);
 }
 
 .reco-cont {
-	margin-top: 2em;
-	border: 2px solid pink;
-	width: 100%;
+	margin-bottom: 2em;
 	position: relative;
+	background-color: white;
 }
 
 img {
-	width: 100%;
-	margin-bottom: -7px;
+	width: calc(100% - 0.5em);
+	padding: 0.25em;
+	padding-bottom: 0.1em;
 }
 
 .reco-title {
 	padding: 1em;
 	padding-bottom: 0;
-	font-family: "Helvetica Neue", "Arial", sans-serif;
+	font-weight: bold;
 }
 
 .reco-text {
 	padding: 1em;
-	padding-bottom: 0;
+	padding-top: 0;
 	border: none;
-	font-style: italic;
 }
 
 @media (min-width: 981px) {
@@ -123,9 +123,8 @@ img {
 .reco-text {		
 	position: absolute;
 	left: 28%;
-	top: 2.5em;
+	top: 2em;
 	padding: 0;
-	padding-top: 0.5em;
 	padding-right: 1em;
 }
 
