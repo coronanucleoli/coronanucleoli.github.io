@@ -68,6 +68,17 @@ p {
 	border-bottom: 2px solid var(--pink);
 }
 
+.img_body_small {
+	width: calc(50% - 2em);
+	margin-right: 1em;
+	height: auto;
+}
+
+.img_body_big {
+	width: 100%;
+	height: auto;
+}
+
 .footer {
 	text-align: right;
 	padding-bottom: 0.5em;
