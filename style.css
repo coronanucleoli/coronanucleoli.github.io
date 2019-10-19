@@ -1,6 +1,6 @@
 body {
 	--pink: #DB97A6;
-	font-family: "Inconsolata", serif;
+	font-family: "Crimson Text", serif;
 	font-size: 1em;
 	background-color: var(--pink);
 	background-image: url("files/images/background.jpg");
