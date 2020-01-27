@@ -1,41 +1,41 @@
 body {
-	--pink: #DB97A6;
-	font-family: "Crimson Text", serif;
+	--pink: #EEAEB9;
+	--white: #F7F7F7;
+	font-family: "Crimson Text Regular", serif;
 	font-size: 1em;
-	background-color: var(--pink);
-	background-image: url("files/images/background.jpg");
+	background-color: var(--white);
 	background-attachment: fixed;
 	background-position: center;
 }
 
 .all {
-	margin: 2em;
+	margin: 0;
 }
 
 .div {
 	padding: 2em;
-	margin-bottom: 2em;
-	background-color: white;
+	background-color: var(--white);
 }
 
 .header {
+	font-family: "Helvetica Neue", Arial, sans-serif;
 	font-weight: bold;
 	font-size: 4em;
 }
 
 .subheader {
-	font-weight: bold;
 	font-size: 1.5em;
 	color: var(--pink);
 }
 
 hr {
-	border: 1px solid var(--pink);
+	border: 0px solid var(--pink);
 }
 
 .topbar {
+	font-family: "Helvetica Neue", Arial, sans-serif;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 a {
@@ -45,7 +45,7 @@ a {
 }
 
 .topbar a {
-	line-height: 2em;
+	line-height: 1.5em
 }
 
 .link {
@@ -57,15 +57,18 @@ a {
 }
 
 .title {
+	font-family: "Helvetica Neue", Arial, sans-serif;
 	color: var(--pink);
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: bold;
 }
 
 p {
 	margin-top: 1em;
-	padding-bottom: 0.5em;
-	border-bottom: 2px solid var(--pink);
+}
+
+.timestamp {
+	font-style: italic;
 }
 
 .img_body_small {
@@ -81,8 +84,6 @@ p {
 
 .footer {
 	text-align: right;
-	padding-bottom: 0.5em;
-	border-bottom: 2px solid var(--pink);
 }
 
 b {
@@ -90,9 +91,9 @@ b {
 }
 
 .reco-cont {
-	margin-bottom: 2em;
+	margin: 0em 2em 2em 2em;
 	position: relative;
-	background-color: white;
+	background-color: var(--white);
 }
 
 img {
@@ -105,6 +106,7 @@ img {
 	padding: 1em;
 	padding-bottom: 0;
 	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .reco-text {
