@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Iosevka";
+    src: url("files/fonts/iosevka-bold.ttf");
+}
+
 body {
 	--pink: #EEAEB9;
 	--white: #F7F7F7;
