@@ -1,7 +1,7 @@
 body {
 	--pink: #EEAEB9;
 	--white: #F7F7F7;
-	font-family: "Crimson Pro", serif;
+	font-family: "Crimson Text Regular", serif;
 	font-size: 1em;
 	background-color: var(--white);
 	background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
 }
 
 .all {
-	margin: 2em;
+	margin: 0;
 }
 
 .div {
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: "Iosevka", monospace;
 	font-weight: bold;
 	font-size: 4em;
 }
@@ -33,7 +33,7 @@ hr {
 }
 
 .topbar {
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: "Iosevka", monospace;
 	font-weight: bold;
 	font-size: 2em;
 }
@@ -61,7 +61,7 @@ a {
 }
 
 .container-title {
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: "Iosevka", monospace;
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1em;
@@ -80,7 +80,7 @@ a {
 }
 
 .title {
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: "Iosevka", monospace;
 	color: var(--pink);
 	font-size: 2em;
 	font-weight: bold;
@@ -130,7 +130,7 @@ img {
 	padding: 0.25em;
 	padding-bottom: 0;
 	font-weight: bold;
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: "Iosevka", monospace;
 }
 
 .reco-text {
