@@ -162,6 +162,12 @@ img {
 	padding-bottom: 0.1em;
 }
 
+video {
+	width: calc(100% - 0.5em);
+	padding: 0.25em;
+	padding-bottom: 0.1em;
+}
+
 .reco-title {
 	padding: 0.25em;
 	padding-bottom: 0;
