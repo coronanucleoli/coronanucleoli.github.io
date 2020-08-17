@@ -6,7 +6,7 @@
 body {
 	--pink: #EEAEB9;
 	--white: #F7F7F7;
-	font-family: "Crimson Text Regular", serif;
+	font-family: "Crimson Text", serif;
 	font-size: 1em;
 	background-color: var(--white);
 	background-attachment: fixed;
