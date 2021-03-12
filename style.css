@@ -20,7 +20,7 @@ body {
 }
 
 .index-title {
-	font-family: "Averia Serif Libre", monospace;
+	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
 	font-size: 2em;
 	color: var(--pink);
@@ -36,7 +36,7 @@ body {
 }
 
 .index-link {
-	font-family: "Averia Serif Libre", monospace;
+	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
 	font-size: 2em;
 	color: var(--pink);
@@ -47,13 +47,19 @@ body {
 
 .div {
 	padding: 2em;
-	background-color: var(--white);
+	/* background-color: var(--white);  */
+}
+
+.a-header {
+	text-decoration: none;
 }
 
 .header {
-	font-family: "Averia Serif Libre", monospace;
+	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
 	font-size: 4em;
+	padding: 0.5em;
+	padding-bottom: 0;
 }
 
 .subheader {
@@ -61,6 +67,17 @@ body {
 	color: var(--pink);
 	border-bottom: 1px solid var(--pink);
 	padding-bottom: 2em;
+	margin-left: 1.325em;
+	margin-right: 1.325em;
+}
+
+.non-a-cont {
+	margin: -2em;
+	margin-top: 0;
+}
+
+.non-a-header {
+	padding-top: 0;
 }
 
 hr {
@@ -68,7 +85,7 @@ hr {
 }
 
 .topbar {
-	font-family: "Averia Serif Libre", monospace;
+	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
 	font-size: 2em;
 }
@@ -96,7 +113,7 @@ a {
 }
 
 .container-title {
-	font-family: "Averia Serif Libre", monospace;
+	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1em;
@@ -115,7 +132,7 @@ a {
 }
 
 .title {
-	font-family: "Averia Serif Libre", monospace;
+	font-family: "Averia Serif Libre", serif;
 	color: var(--pink);
 	font-size: 2em;
 	font-weight: bold;
@@ -172,7 +189,7 @@ video {
 	padding: 0.25em;
 	padding-bottom: 0;
 	font-weight: bold;
-	font-family: "Averia Serif Libre", monospace;
+	font-family: "Averia Serif Libre", serif;
 }
 
 .reco-text {
@@ -181,9 +198,13 @@ video {
 	border: none;
 }
 
+.gallery-img {
+	margin-bottom: 1.5em;
+}
+
 @media (min-width: 981px) {
 	
-img {
+.img-reco {
 	width: 30%;
 	height: 100%;
 }
@@ -205,6 +226,11 @@ img {
 	top: 1em;
 	padding: 0;
 	padding-right: 1em;
+}
+
+.gallery-cont {
+	column-count: 2;
+	column-gap: 1.5em;
 }
 
 }
