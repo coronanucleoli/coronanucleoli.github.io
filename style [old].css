@@ -6,32 +6,30 @@
 body {
 	--pink: #EEAEB9;
 	--white: #F7F7F7;
-	--black: #151515;
-	font-family: "Space Mono",monospace;
+	font-family: "Crimson Text", serif;
 	font-size: 1em;
 	background-color: var(--white);
 	background-attachment: fixed;
 	background-position: center;
+	background-image: url("files/images/background.jpg");
 }
 
 .all {
 	margin: 1.5em 1em;
 	background-color: var(--white);
-	border: 2px solid var(--black);
-	padding-bottom: 2em;
 }
 
 .index-title {
 	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
-	font-size: 2.5em;
-	color: var(--black);
-	margin-top: 1.6em;
+	font-size: 2em;
+	color: var(--pink);
+	margin-top: -1em;
 }
 
 .index-body {
 	margin: 1em 0 2em 0;
-	border-bottom: 2px solid var(--black);
+	border-bottom: 1px solid var(--pink);
 	padding-bottom: 1.5em;
 }
 
@@ -47,7 +45,6 @@ body {
 
 .div {
 	padding: 2em;
-	padding-bottom: 0;
 	/* background-color: var(--white);  */
 }
 
@@ -65,8 +62,8 @@ body {
 
 .subheader {
 	font-size: 1.5em;
-	color: var(--black);
-	border-bottom: 2px solid var(--black);
+	color: var(--pink);
+	border-bottom: 2px solid var(--pink);
 	padding-bottom: 2em;
 	margin-left: 1.325em;
 	margin-right: 1.325em;
@@ -86,8 +83,7 @@ hr {
 }
 
 strong {
-	color: var(--black);
-	font-weight: bold;
+	color: var(--pink);
 }
 
 .topbar {
@@ -99,7 +95,7 @@ strong {
 a {
 	font-size: 1em;
 	color: black;
-	text-decoration: underline var(--black);
+	text-decoration: underline var(--pink);
 }
 
 .topbar a {
@@ -111,11 +107,11 @@ a {
 }
 
 .container {
-	border: 2px solid var(--black);
-	padding: 0em 2em 1em 2em;
+	border: 4px solid var(--pink);
+	padding: 0 2em 1em 2em;
 	margin-bottom: 2em;
 	color: white;
-	background-color: var(--white);
+	background-color: var(--pink);
 }
 
 .container-title {
@@ -123,30 +119,26 @@ a {
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1em;
-	color: var(--black);
-	text-decoration: underline var(--white);
 }
 
 .container-p {
 	text-decoration: none;
-	color: var(--black);
-	text-decoration: underline var(--white);
 }
 
 .link {
 	color: black;
-	text-decoration: underline var(--black);
+	text-decoration: underline var(--pink);
 	font-weight: bold;
 }
 
 .link:hover {
-	text-decoration: underline var(--black);
+	text-decoration: underline var(--pink);
 }
 
 .title {
 	font-family: "Averia Serif Libre", serif;
-	color: var(--black);
-	font-size: 2.5em;
+	color: var(--pink);
+	font-size: 2em;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -156,19 +148,18 @@ p {
 }
 
 h2 {
-	color: var(--black);
-	font-size: 2em;
-	font-family: "Space Mono",monospace;
+	color: var(--pink);
+	font-size: 1.5em;
+	font-family: "Averia Serif Libre", serif;
 	margin-top: 0;
 }
 
 blockquote {
-	border-left: 2px solid var(--black);
+	border-left: 2px solid var(--pink);
 	padding-left: 1em;
 	padding-bottom: 0;
 	margin-bottom: 2em;
 	margin-top: 1em;
-	margin-left: 0;
 	font-style: italic;
 }
 
@@ -177,8 +168,9 @@ blockquote {
 }
 
 .img_body_small {
+	width: calc(50% - 2em);
+	margin-right: 1em;
 	height: auto;
-	margin-bottom: 0.5em;
 }
 
 .img_body_big {
@@ -193,11 +185,9 @@ blockquote {
 }
 
 .reco-cont {
-	margin: 2em 2em 0em 2em;
+	margin: 0em 2em 2em 2em;
 	position: relative;
 	background-color: var(--white);
-	border: 2px solid var(--black);
-	padding: 1em;
 }
 
 img {
@@ -215,13 +205,13 @@ video {
 .reco-title {
 	padding: 0.25em;
 	padding-bottom: 0;
-	font-family: "Space Mono",monospace;
+	font-weight: bold;
+	font-family: "Averia Serif Libre", serif;
 }
 
 .reco-text {
 	padding: 0.25em;
 	padding-top: 0;
-	margin-bottom: 0;
 	border: none;
 }
 
@@ -232,27 +222,32 @@ video {
 @media (min-width: 981px) {
 
 .all {
-	margin: 2em 1.5em;
+	margin: 2.5em 2em;
 	background-color: var(--white);
 }
 
-.img_body_small {
-	width: calc(50% - 2em);
-	margin-right: 1em;
-	height: auto;
-}
-
 .img-reco {
-	height: auto;
-	max-width: 50%;
-	float: right;
-	padding-bottom: 4px;
+	width: 30%;
+	height: 100%;
 }
 
 .reco-cont {
 	height: auto;
-	padding: 1em;
-	overflow: auto;
+}
+	
+.reco-title {		
+	position: absolute;
+	left: calc(30% + 3em);
+	top: 0em;
+	padding: 0em;
+}
+
+.reco-text {		
+	position: absolute;
+	left: calc(30% + 3em);
+	top: 1em;
+	padding: 0;
+	padding-right: 1em;
 }
 
 .gallery-cont {
