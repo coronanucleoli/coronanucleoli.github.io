@@ -48,7 +48,7 @@ body {
 .div {
 	padding: 2em;
 	padding-bottom: 0;
-	/* background-color: var(--white);  */
+	overflow-wrap: break-word;
 }
 
 .a-header {
@@ -58,7 +58,7 @@ body {
 .header {
 	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
-	font-size: 4em;
+	font-size: 3.5em;
 	padding: 0.5em;
 	padding-bottom: 0;
 }
