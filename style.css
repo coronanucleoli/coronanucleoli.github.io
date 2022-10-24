@@ -7,24 +7,28 @@ body {
 	--pink: #EEAEB9;
 	--white: #F7F7F7;
 	--black: #151515;
+	--bor-rad: 0.5em;
 	font-family: "Space Mono",monospace;
 	font-size: 1em;
 	background-color: var(--white);
 	background-attachment: fixed;
 	background-position: center;
+	background-image: url("files/images/background.jpg");
+	margin: 2em;
 }
 
 .all {
-	margin: 1.5em 1em;
+	margin: 1em 0em !important;
 	background-color: var(--white);
 	border: 2px solid var(--black);
 	padding-bottom: 2em;
+	border-radius: var(--bor-rad);
 }
 
 .index-title {
 	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: var(--black);
 	margin-top: 1.6em;
 }
@@ -58,13 +62,15 @@ body {
 .header {
 	font-family: "Averia Serif Libre", serif;
 	font-weight: bold;
-	font-size: 3.5em;
+	font-size: 3em;
 	padding: 0.5em;
 	padding-bottom: 0;
+	padding-left: 0.6em;
 }
 
 .subheader {
 	font-size: 1.5em;
+	font-style: italic;
 	color: var(--black);
 	border-bottom: 2px solid var(--black);
 	padding-bottom: 2em;
@@ -82,7 +88,8 @@ body {
 }
 
 hr {
-	border: 0px solid var(--pink);
+	border: 1px solid var(--black);
+	background-color: var(--black);
 }
 
 strong {
@@ -108,14 +115,18 @@ a {
 
 .container-all {
 	margin: 2em;
+	border-radius: var(--bor-rad);
 }
 
 .container {
 	border: 2px solid var(--black);
+	border-right: 4px solid var(--black);
+	border-bottom: 4px solid var(--black);
 	padding: 0em 2em 1em 2em;
 	margin-bottom: 2em;
 	color: white;
 	background-color: var(--white);
+	border-radius: var(--bor-rad);
 }
 
 .container-title {
@@ -190,6 +201,7 @@ blockquote {
 	text-align: right;
 	padding-right: 0;
 	font-style: italic;
+	margin-top: -2em;
 }
 
 .reco-cont {
@@ -232,7 +244,7 @@ video {
 @media (min-width: 981px) {
 
 .all {
-	margin: 2em 1.5em;
+	margin: 4em 2em !important;
 	background-color: var(--white);
 }
 
